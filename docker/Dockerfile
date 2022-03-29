@@ -4,8 +4,8 @@ ARG BUILD_ENV=local
 FROM --platform=linux/amd64 node:lts-alpine AS build-local
 WORKDIR /src
 
-COPY yarn.lock ./
-COPY . .
+COPY ../yarn.lock ./
+COPY .. .
 RUN yarn install
 RUN yarn run app:build
 RUN yarn run landing:build
@@ -13,7 +13,7 @@ RUN yarn run landing:build
 # ci
 FROM scratch AS build-ci
 WORKDIR /src/app/build
-COPY . .
+COPY .. .
 
 FROM build-${BUILD_ENV} AS build
 
