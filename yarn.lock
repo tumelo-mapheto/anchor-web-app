@@ -27,9 +27,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anchor-web-app/app@workspace:app":
+"@anchor-protocol/web-app@workspace:app":
   version: 0.0.0-use.local
-  resolution: "@anchor-web-app/app@workspace:app"
+  resolution: "@anchor-protocol/web-app@workspace:app"
   dependencies:
     "@anchor-protocol/crossanchor-sdk": ^0.1.2-alpha.119
     "@certusone/wormhole-sdk": ^0.2.0
@@ -152,9 +152,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@anchor-web-app/landing@workspace:landing":
+"@anchor-protocol/web-landing@workspace:landing":
   version: 0.0.0-use.local
-  resolution: "@anchor-web-app/landing@workspace:landing"
+  resolution: "@anchor-protocol/web-landing@workspace:landing"
   dependencies:
     "@material-ui/core": ^4.11.3
     "@material-ui/icons": ^4.11.2
