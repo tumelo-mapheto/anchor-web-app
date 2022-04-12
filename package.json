@@ -55,5 +55,6 @@
     "jest-bin": "^0.3.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2"
-  }
+  },
+  "packageManager": "yarn@3.2.0"
 }
