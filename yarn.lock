@@ -13015,7 +13015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.11.0, eslint@npm:^7.27.0, eslint@npm:^7.30.0":
+"eslint@npm:^7.11.0, eslint@npm:^7.27.0, eslint@npm:^7.32.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -23379,7 +23379,7 @@ __metadata:
     "@types/eslint": ^7.2.14
     "@types/prettier": ^2.3.2
     apollo: ^2.33.9
-    eslint: ^7.30.0
+    eslint: ^7.32.0
     eslint-config-prettier: ^8.3.0
     eslint-config-react-app: ^6.0.0
     husky: ^7.0.1
